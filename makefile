@@ -1,2 +1,4 @@
+CC?=gcc
+
 hellomake: hellomake.c hellofunc.c
-	gcc -o hellomake hellomake.c hellofunc.c -I.
+	$(CC) -o hellomake hellomake.c hellofunc.c -I.
